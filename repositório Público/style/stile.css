@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: segoe UI;
+
+}
+
+
+body{
+     
+
+}
+
+
+
+.container{
+    /* faz o leitor encarar os itens como bloquinhos */
+    display: flex;
+
+
+    /* indica a direção dos bloquinhos */
+    flex-direction: row;
+
+    /*  ISSO LIDA COM OS PEQUENOS ITENS  (TEXTO IMG) QUE TEM DENTRO DA DIV */
+    align-items: center;
+/* ISSO LIDA COM TODO O BLOCO DE CONTEUDO */
+    justify-content: center;
+}
+
+
+
+
+
+.esquerdo{
+
+    margin-left:30px;
+
+    width: 30%;
+
+    /* vh para altura e vw para largura - as medidas mais responsivas  */
+    height: 100vh;
+    background-color: #c6cec6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+
+.esquerdo hr{
+    width: 90%;
+}
+
+/* .direito{ 
+    width: 70%;
+    height: 100vh;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.um{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quatro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.cinco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
